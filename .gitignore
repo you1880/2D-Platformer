@@ -97,3 +97,15 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# External Assets
+/[Aa]ssets/Resources/Animation/
+/[Aa]ssets/Resources/Animation.meta
+/[Aa]ssets/Resources/Arts/
+/[Aa]ssets/Resources/Arts.meta
+/[Aa]ssets/Resources/ExternalAssets/
+/[Aa]ssets/Resources/ExternalAssets.meta
+/[Aa]ssets/Resources/Font/
+/[Aa]ssets/Resources/Font.meta
+/[Aa]ssets/Resources/Sounds/
+/[Aa]ssets/Resources/Sounds.meta
