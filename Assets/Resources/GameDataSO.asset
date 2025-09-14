@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cdb39699ea75c48af286ad0989bde5, type: 3}
+  m_Name: GameDataSO
+  m_EditorClassIdentifier: 
+  stageDependencies:
+  - stage: 12
+    requireStages: 0b000000
+  - stage: 13
+    requireStages: 0c000000
+  - stage: 14
+    requireStages: 0d000000
+  - stage: 15
+    requireStages: 0d000000
+  - stage: 16
+    requireStages: 0e0000000f000000
+  - stage: 21
+    requireStages: 10000000
+  - stage: 22
+    requireStages: 15000000
+  - stage: 23
+    requireStages: 15000000
+  - stage: 24
+    requireStages: 1600000017000000
+  - stage: 25
+    requireStages: 18000000
+  - stage: 26
+    requireStages: 19000000
+  stageData:
+  - stage: 11
+    requireActivityPoint: 1
+    clearGold: 50
+    clearExp: 25
+    minSkipGold: 15
+    maxSkipGold: 20
+  - stage: 12
+    requireActivityPoint: 1
+    clearGold: 75
+    clearExp: 35
+    minSkipGold: 25
+    maxSkipGold: 30
+  - stage: 13
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 14
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 15
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 16
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 21
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 22
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 23
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 24
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 25
+    requireActivityPoint: 1
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  - stage: 26
+    requireActivityPoint: 2
+    clearGold: 0
+    clearExp: 0
+    minSkipGold: 0
+    maxSkipGold: 0
+  requireExp:
+  - level: 1
+    exp: 100
+  - level: 2
+    exp: 300
+  itemData:
+  - itemCode: 1
+    itemType: 1
+    itemName: Basic Activity Potion
+    itemLore: "\uD65C\uB825\uC744 1 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    itemPrice: 15
+    itemEffect: {fileID: 11400000, guid: 9df3e7ece3610044196fac2529c3391c, type: 2}
+  - itemCode: 2
+    itemType: 1
+    itemName: Hp Potion
+    itemLore: "\uCCB4\uB825\uC744 1 \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    itemPrice: 20
+    itemEffect: {fileID: 11400000, guid: 633f6f3e46bbfe94f98c67749fd9f3cd, type: 2}
+  shopData:
+    consumableItemList: 0100000002000000
+    equipmentItemList: 
+  enemyData:
+  - enemyType: 1
+    maxHp: 3
+    attack: 1
+    moveSpeed: 2
+    attackRange: 1.5
+    attackDelay: 5
