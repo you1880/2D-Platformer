@@ -19,4 +19,6 @@
 - Unity 2021.3.18f1
 
 #### 사용 Assets
-- [Unity Asset Store 이동](https://assetstore.unity.com/packages/2d/metroidvania-adventure-162831)
+- [Metroidvania Adventure](https://assetstore.unity.com/packages/2d/metroidvania-adventure-162831)
+- [Classic RPG GUI](https://assetstore.unity.com/packages/2d/gui/classic-rpg-gui-160253)
+- 폰트 : [메이플스토리 서체](https://maplestory.nexon.com/Media/Font)
